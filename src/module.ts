@@ -21,10 +21,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     addPlugin(resolve('./runtime/humblescroll'))
 
-    nuxt.options.runtimeConfig.public.humbleScroll = defu(nuxt.options.runtimeConfig.public.humbleScroll, {
-      repeat: options.repeat,
-      mirror: options.mirror,
-    })
+    nuxt.options.runtimeConfig.public.humbleScroll = defu(nuxt.options.runtimeConfig.public.humbleScroll, options)
 
     addComponent({
       name: 'HumbleScroll',
