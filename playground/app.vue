@@ -3,6 +3,32 @@
 
 <template>
   <main>
+    <section class="relative flex flex-col items-center justify-center w-full h-screen overflow-hidden">
+      <HumbleScroll
+        animation="zoom-in fade"
+        class="absolute object-cover w-full h-full"
+        inner-class="w-full h-full"
+        :variables="{ duration: '3000ms' }"
+      >
+        <img 
+          src="https://images.unsplash.com/photo-1479030160180-b1860951d696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+          class="object-cover w-full h-full opacity-75"
+        >
+      </HumbleScroll>
+      <div class="container relative">
+        <HumbleScroll
+          animation="fade up"
+          :variables="{ delay: '1000ms' }"
+          class="text-center"
+          speed="slow"
+        >
+          <h1 class="font-semibold text-7xl">
+            HumbleScroll
+          </h1>
+          <p class="mt-8 text-xl">A Vue 3 component for scroll animations.</p>
+        </HumbleScroll>
+      </div>
+    </section>
     <div class="container">
       <div class="grid gap-20 px-6 pb-8 lg:grid-cols-12 lg:px-8">
         <div class="lg:col-span-9">
