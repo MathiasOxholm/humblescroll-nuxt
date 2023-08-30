@@ -1,6 +1,6 @@
 {
   "name": "humblescroll-nuxt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Nuxt module for Humblescroll Vue",
   "repository": "mathiasoxholm/humblescroll-nuxt",
   "license": "MIT",
@@ -46,5 +46,16 @@
   },
   "overrides": {
     "vitest": "^0.34.1"
-  }
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxtjs",
+    "nuxt-module",
+    "tailwindCSS",
+    "tailwind",
+    "animations",
+    "AOS",
+    "scroll animations"
+  ]
 }
