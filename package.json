@@ -1,6 +1,6 @@
 {
   "name": "humblescroll-nuxt",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Nuxt module for Humblescroll Vue",
   "repository": "mathiasoxholm/humblescroll-nuxt",
   "license": "MIT",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.7.0",
-    "humblescroll-vue": "^1.1.4"
+    "humblescroll-vue": "^1.1.5"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
