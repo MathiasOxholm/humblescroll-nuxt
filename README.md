@@ -30,13 +30,13 @@ HumbleScroll is a lightweight and minimalistic animation on scroll Nuxt module. 
 
 ```bash
 # Using pnpm
-pnpm add humblescroll-nuxt
+pnpm add -D humblescroll-nuxt
 
 # Using yarn
-yarn add humblescroll-nuxt
+yarn add -D humblescroll-nuxt
 
 # Using npm
-npm install humblescroll-nuxt
+npm install -D humblescroll-nuxt
 ```
 
 ### 2. Add `humblescroll-nuxt` to the `modules` section of `nuxt.config.ts`
@@ -295,7 +295,7 @@ Default variation for animation durations (scales from `--hs-duration`).
 Ensure the animation only runs once - even with `repeat` and `mirror` enabled.
 
 ```html
-<HumbleScroll animation="fade up once" />
+<HumbleScroll animation="fade up" :once="true" />
 ```
 
 ### 12. Responsive animations

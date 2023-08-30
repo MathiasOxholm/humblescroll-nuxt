@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   modules: ['../src/module', '@nuxtjs/tailwindcss'],
-  myModule: {},
   devtools: { enabled: true },
   humbleScroll: {
     repeat: true,
