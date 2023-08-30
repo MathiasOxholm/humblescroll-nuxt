@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.7
+
+[compare changes](https://github.com/mathiasoxholm/humblescroll-nuxt/compare/v1.0.6...v1.0.7)
+
+### 🏡 Chore
+
+- **release:** V1.0.6 ([1de5567](https://github.com/mathiasoxholm/humblescroll-nuxt/commit/1de5567))
+
+### ❤️ Contributors
+
+- Mathias Oxholm ([@MathiasOxholm](http://github.com/MathiasOxholm))
+
 ## v1.0.6
 
 [compare changes](https://github.com/mathiasoxholm/humblescroll-nuxt/compare/v1.0.5...v1.0.6)
