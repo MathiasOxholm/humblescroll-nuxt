@@ -7,7 +7,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     return
   }
   
-  console.log(useRuntimeConfig())
   const options = useRuntimeConfig().public.humbleScroll
 
   nuxtApp.hook('app:created', () => {
